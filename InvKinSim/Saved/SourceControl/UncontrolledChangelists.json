@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/matthewen/Documents/Github/Clubs/UMass Robotics/Unreal-Telepresence/InvKinSim/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+			]
+		}
+	]
+}
