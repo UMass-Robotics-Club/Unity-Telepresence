@@ -545,8 +545,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559836186}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.22900885, y: -0.65341383, z: 0.2175075, w: 0.687965}
-  m_LocalPosition: {x: -0.03741949, y: -0.023884444, z: -0.0005702488}
+  m_LocalRotation: {x: 0.23574214, y: -0.623062, z: 0.08927244, w: 0.74043894}
+  m_LocalPosition: {x: -0.040834237, y: -0.01710042, z: 0.003338026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -554,7 +554,7 @@ Transform:
   - {fileID: 1973139764}
   - {fileID: 1163377525}
   - {fileID: 1273155184}
-  m_Father: {fileID: 994301957}
+  m_Father: {fileID: 913198934}
   m_LocalEulerAnglesHint: {x: 36.823, y: -87.049, z: 0}
 --- !u!1 &667841072
 GameObject:
@@ -746,6 +746,38 @@ Transform:
   - {fileID: 1840710394}
   m_Father: {fileID: 2050187616}
   m_LocalEulerAnglesHint: {x: -22.149, y: 88.881, z: 0}
+--- !u!1 &913198933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 913198934}
+  m_Layer: 0
+  m_Name: Forearm Rotation Anchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &913198934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913198933}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.069804154, y: -0.08599969, z: 0.08828438, w: 0.9899179}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 559836187}
+  m_Father: {fileID: 994301957}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &918195630
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,7 +841,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1821801954585411450}
-  - {fileID: 559836187}
+  - {fileID: 913198934}
   m_Father: {fileID: 1136089092}
   m_LocalEulerAnglesHint: {x: 155.556, y: -2.9570007, z: 0}
 --- !u!1 &997294354
@@ -21570,7 +21602,7 @@ GameObject:
   - component: {fileID: 3930956973891895591}
   - component: {fileID: 3930956973891895592}
   m_Layer: 0
-  m_Name: Left Arm (Arm Control Scripts)
+  m_Name: Left Arm (Arm Control Scripts Here)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44833,6 +44865,7 @@ MonoBehaviour:
   wristHorizontal: {fileID: 1728706384}
   wristVertical: {fileID: 1373557711}
   wristRotation: {fileID: 559836187}
+  wristRotationAnchor: {fileID: 0}
 --- !u!4 &3932547738912345454
 Transform:
   m_ObjectHideFlags: 0
