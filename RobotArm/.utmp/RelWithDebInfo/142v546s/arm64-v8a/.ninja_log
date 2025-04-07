@@ -1,0 +1,9 @@
+# ninja log v5
+1	533	1743982879594110112	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	959adbfa6914b216
+2	706	1743982879779112366	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	8ea67bdf568a2c8c
+1	889	1743982879958114547	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	c557e92f76b561e4
+1	889	1743982879958114547	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	397efa636f50f41c
+0	921	1743982879991114949	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	f94b5894a9c04ae4
+1	1341	1743982880402119954	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	ad9fed1d21b88906
+0	1496	1743982880566121951	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	22297e05522cae99
+1496	1526	1743982880599122353	/home/ksquared/humanoid/Unity-Telepresence/RobotArm/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/142v546s/obj/arm64-v8a/libgame.so	2a0bfb4c6642964e

@@ -90602,6 +90602,8 @@ GameObject:
   - component: {fileID: 4609480487156742895}
   - component: {fileID: 3845757207403626577}
   - component: {fileID: 2332644627385506049}
+  - component: {fileID: 8493640445985350861}
+  - component: {fileID: 8493640445985350862}
   m_Layer: 2
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -93594,6 +93596,32 @@ MonoBehaviour:
   m_CameraFloorOffsetObject: {fileID: 7315130472306548786}
   m_RequestedTrackingOriginMode: 0
   m_CameraYOffset: 1.36144
+--- !u!114 &8493640445985350861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238199698290419021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92e9b1e84afeb467ae268ec9ace75a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serverAddress: http://localhost:50051
+--- !u!114 &8493640445985350862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238199698290419021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92e9b1e84afeb467ae268ec9ace75a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serverAddress: 100.79.90.77:50051
 --- !u!4 &8493818461998162145
 Transform:
   m_ObjectHideFlags: 0
